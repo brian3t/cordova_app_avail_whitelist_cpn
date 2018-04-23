@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-add-whitelist-app-availability-info-plist-cpn" version="0.1.7" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App Availability Whitelist Info Plist For Carpoolnow</name>
+    <author>Brian Nguyen (https://github.com/brian3t)</author>
+    <description>Cordova / PhoneGap Plugin to add whitelist to the Info.plist file in order to use AppAvailability on the iOS 9.2 and above changes, for app Carpoolnow</description>
+    <keywords>cordova, ios, appavailability</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">         
+        <array>
+            <string>carpoolnow</string>
+        </array>          
+      </config-file>
+    </platform>
+</plugin>

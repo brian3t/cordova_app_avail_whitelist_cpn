@@ -15,7 +15,7 @@
         </array>          
       </config-file>
         <config-file parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
-            <string>Your current location will be used to match you to riders and drivers in your area. Once a ride has begun it will also be used to provide estimated travel times.</string>
+            <string>Shorter text</string>
         </config-file>
     </platform>
 </plugin>

@@ -14,8 +14,5 @@
             <string>carpoolnow</string>
         </array>          
       </config-file>
-        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>asdasdasd</string>
-        </config-file>
     </platform>
 </plugin>
